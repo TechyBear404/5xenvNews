@@ -1,8 +1,10 @@
 ---
 import Navigation from "./Navigation.astro";
+import Socials from "./Socials.astro";
 ---
-<header>
-    <nav>
-        <Navigation />
-    </nav>
+<header class="flex justify-between mx-auto p-4 h-[60px]" style="background: linear-gradient(90deg, #0D0E0E 44.8%, #171719 100%);">
+    <a href="/" class="hover:cursor-pointer my-auto"><div>Logo</div></a>
+    <!-- <div id="logo" class="my-auto  ">Logo</div> -->
+    <Navigation />
+    <Socials />
 </header>

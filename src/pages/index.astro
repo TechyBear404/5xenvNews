@@ -4,5 +4,7 @@ import ArticleMain from '../components/ArticleMain.astro';
 const { pageTitle } = Astro.props;
 ---
 <BaseLayout pageTitle={pageTitle}>
-	<ArticleMain/>
+	<div class="min-h-[100vh]">
+		<ArticleMain/>
+	</div>
 </BaseLayout>

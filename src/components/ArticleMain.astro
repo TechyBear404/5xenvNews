@@ -1,16 +1,19 @@
 ---
 import { Image } from 'astro:assets';
-import screen from '../../images/ecran.png';
+import analyst from '../images/analyst.png';
 ---
-<div id="article-main" class="flex items-center h-[70vh]">
-    <!-- <Image src={localBirdImage} alt="A bird sitting on a nest of eggs."/> -->
-    <div class="container flex flex-col w-[50%] ml-32" style="background-color: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0.11%, rgba(30, 30, 30, 0.00) 111.63%);">
-        <h1 class="font-bold">Analyste système</h1>
-        <h2 class="font-light">Des Problèmes aux Solutions : Un Voyage dans le Monde de l'Informatique.</h2>
-        <div class="flex-initial my-4">
-            <button class="bg-red-500 border-2 border-red-500 hover:bg-red-700 hover:border-2 hover:border-white text-white font-bold py-2 px-4 rounded-full">
-                Lire l'article
-            </button>
+<div id="article-main" class="flex items-center h-[70vh] relative">
+    <Image src={analyst} alt="Un analiste regardant une rangée d ecrans d ordinateurs" class="absolute top-0 left-0 -z-10 w-full h-full" style="object-fit: cover; object-position: right bottom;"/>
+    <div class="h-full w-3/4 flex items-center" style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0.11%, rgba(30, 30, 30, 0.00) 100%);">
+        <div class=" flex flex-col gap-5 w-3/4 ml-32" >
+            <h1 class="font-bold text-7xl">Analyste système</h1>
+            <h2 class="font-light text-xl">Des Problèmes aux Solutions : Un Voyage dans le Monde de l'Informatique.</h2>
+            <div class="flex-initial my-4">
+                <button class="bg-red-600 border-2 border-red-500 hover:bg-red-700 hover:border-2 hover:border-white text-red-50 font-bold py-2 px-4 rounded-full">
+                    Lire l'article
+                </button>
+            </div>
         </div>
     </div>
+    <!-- <Image src={localBirdImage} alt="A bird sitting on a nest of eggs."/> -->
 </div>

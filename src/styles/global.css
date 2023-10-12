@@ -1,5 +1,5 @@
 html {
-background-color: #f1f5f9;
+background: linear-gradient(270deg, #0D0E0E 0.08%, #121314 38.55%, #171719 100%);
 font-family: sans-serif;
 color: #DFD1D1;
 }
@@ -24,57 +24,78 @@ h2 {
     font-size: 1rem;
 }
 
-
-.nav-links {
-    width: 100%;
-    height: 60px;
-    top: 5rem;
-    left: 48px;
-    background: linear-gradient(90deg, #0D0E0E 44.8%, #171719 99.92%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    flex-shrink: 0;
-    /* margin: 0; */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0D0E0E;
+    /* box-shadow: inset 0 0 5px grey; */
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(104, 6, 6);
+border-radius: 10px;
+}
+
+
+/* .nav-links { */
+    /* width: 100%; */
+    /* height: 60px; */
+    /* top: 5rem; */
+    /* left: 48px; */
+    /* background: linear-gradient(90deg, #0D0E0E 44.8%, #171719 99.92%); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 1rem; */
+    /* flex-shrink: 0; */
+    /* margin: 0; */
+/* } */
+
 .nav-links a {
-    display: block;
-    flex: initial;
-    text-align: center;
-    padding: 10px 0;
+    /* display: block; */
+    /* flex: initial; */
+    /* text-align: center; */
+    /* padding: 10px 0; */
     text-decoration: none;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-transform: uppercase;
     color: inherit;
 }
 
-.nav-links a:visited {
+/* .nav-links a:visited {
     color: inherit;
 }
 .nav-links a:hover {
     color: #dd1919;
     font-weight: bold;
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
 }
 
 .nav-links a:focus {
     color: #dd1919;
     font-weight: bold;
-}
+} */
 
-#article-main {
-    background-image: url("../images/ecran.jpg");
-}
+/* #article-main { */
+    /* background-image: url("../images/analyst.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+/* } */
 
 
-footer {
+/* footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #060606;
-}
+} */
 
 /* footer > div {
 

@@ -1,8 +1,24 @@
 ---
 import { Icon } from 'astro-icon'
 ---
-<div id="socials" class="flex justify-center gap-2 text-base my-auto">
-  <div><Icon name="fa:facebook-square" class="hover:text-red-500 hover:cursor-pointer w-5 h-5"/></div>
-  <div><Icon name="fa:twitter-square" class="hover:text-red-500 hover:cursor-pointer w-5 h-5"/></div>
-  <div><Icon name="fa:linkedin-square" class="hover:text-red-500 hover:cursor-pointer w-5 h-5"/></div>
+
+<div id="socials" class="my-auto flex justify-center gap-2 text-base">
+	<a href="">
+		<Icon
+			name="fa:facebook-square"
+			class="hover:background-color h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+		/>
+	</a>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+		<Icon
+			name="fa:twitter-square"
+			class="h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+		/>
+	</a>
+	<a href="">
+		<Icon
+			name="fa:linkedin-square"
+			class="h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+		/>
+	</a>
 </div>

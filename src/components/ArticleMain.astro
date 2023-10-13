@@ -1,19 +1,32 @@
 ---
-import { Image } from 'astro:assets';
-import analyst from '../images/analyst.png';
+import { Image } from 'astro:assets'
+import analyst from '../images/analyst.png'
 ---
-<div id="article-main" class="flex items-center h-[70vh] relative">
-    <Image src={analyst} alt="Un analiste regardant une rangée d ecrans d ordinateurs" class="absolute top-0 left-0 -z-10 w-full h-full" style="object-fit: cover; object-position: right bottom;"/>
-    <div class="h-full w-3/4 flex items-center" style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0.11%, rgba(30, 30, 30, 0.00) 100%);">
-        <div class=" flex flex-col gap-5 w-3/4 ml-32" >
-            <h1 class="font-bold text-7xl">Analyste système</h1>
-            <h2 class="font-light text-xl">Des Problèmes aux Solutions : Un Voyage dans le Monde de l'Informatique.</h2>
-            <div class="flex-initial my-4">
-                <button class="bg-red-600 border-2 border-red-500 hover:bg-red-700 hover:border-2 hover:border-white text-red-50 font-bold py-2 px-4 rounded-full">
-                    Lire l'article
-                </button>
-            </div>
-        </div>
-    </div>
-    <!-- <Image src={localBirdImage} alt="A bird sitting on a nest of eggs."/> -->
+
+<div id="article-main" class="relative flex h-[70vh] items-center">
+	<Image
+		src={analyst}
+		alt="Un analiste regardant une rangée d ecrans d ordinateurs"
+		class="absolute left-0 top-0 -z-10 h-full w-full"
+		style="object-fit: cover; object-position: right bottom;"
+	/>
+	<div
+		class="flex h-full w-3/4 items-center"
+		style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0.11%, rgba(30, 30, 30, 0.00) 100%);"
+	>
+		<div class="ml-32 flex w-3/4 flex-col gap-5">
+			<h1 class="text-7xl font-bold">Analyste système</h1>
+			<h2 class="text-xl font-light">
+				Des Problèmes aux Solutions : Un Voyage dans le Monde de l'Informatique.
+			</h2>
+			<div class="my-4 flex-initial">
+				<button
+					class="rounded-full border-2 border-red-500 bg-red-600 px-4 py-2 font-bold text-red-50 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:border-2 hover:border-white hover:bg-red-700"
+				>
+					Lire l'article
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- <Image src={localBirdImage} alt="A bird sitting on a nest of eggs."/> -->
 </div>

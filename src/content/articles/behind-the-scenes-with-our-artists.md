@@ -11,28 +11,27 @@ Un analyste système, également connu sous le nom d'analyste en systèmes d'inf
 
 ## Analyse des besoins
 
-L'analyste système travaille en étroite collaboration avec les utilisateurs et les parties prenantes de l'entreprise pour comprendre leurs besoins en matière de systèmes d'information. Il recueille des informations sur les processus existants, les défis rencontrés et les objectifs à atteindre. 
+L'analyste système travaille en étroite collaboration avec les utilisateurs et les parties prenantes de l'entreprise pour comprendre leurs besoins en matière de systèmes d'information. Il recueille des informations sur les processus existants, les défis rencontrés et les objectifs à atteindre.
 
 ## Conception de systèmes
 
-Sur la base de l'analyse des besoins, l'analyste système conçoit des solutions informatiques adaptées. Cela peut inclure la conception de nouvelles applications, la mise à jour de systèmes existants ou l'intégration de logiciels tiers. 
+Sur la base de l'analyse des besoins, l'analyste système conçoit des solutions informatiques adaptées. Cela peut inclure la conception de nouvelles applications, la mise à jour de systèmes existants ou l'intégration de logiciels tiers.
 
 ## Développement et mise en œuvre
 
-Une fois la conception approuvée, l'analyste système collabore avec les développeurs et les équipes techniques pour mettre en œuvre la solution. Il peut également être responsable de la gestion de projet pour s'assurer que le projet est livré en temps voulu et dans les limites du budget. 
+Une fois la conception approuvée, l'analyste système collabore avec les développeurs et les équipes techniques pour mettre en œuvre la solution. Il peut également être responsable de la gestion de projet pour s'assurer que le projet est livré en temps voulu et dans les limites du budget.
 
 ## Test et validation
 
-L'analyste système effectue des tests pour s'assurer que la solution fonctionne correctement et répond aux exigences. Il coordonne également les tests avec les utilisateurs finaux pour obtenir leur retour d'information. 
+L'analyste système effectue des tests pour s'assurer que la solution fonctionne correctement et répond aux exigences. Il coordonne également les tests avec les utilisateurs finaux pour obtenir leur retour d'information.
 
-  
 ## Support et maintenance
 
-Une fois que le système est en production, l'analyste système continue à le surveiller et à le maintenir. Il résout les problèmes techniques, met à jour les systèmes en fonction des besoins changeants de l'entreprise et assure la sécurité et la fiabilité des systèmes. 
+Une fois que le système est en production, l'analyste système continue à le surveiller et à le maintenir. Il résout les problèmes techniques, met à jour les systèmes en fonction des besoins changeants de l'entreprise et assure la sécurité et la fiabilité des systèmes.
 
-## Formation des utilisateurs 
+## Formation des utilisateurs
 
-L'analyste système peut être chargé de former les utilisateurs finaux sur l'utilisation efficace des systèmes et des logiciels. 
+L'analyste système peut être chargé de former les utilisateurs finaux sur l'utilisation efficace des systèmes et des logiciels.
 
 ## Conclusion
 

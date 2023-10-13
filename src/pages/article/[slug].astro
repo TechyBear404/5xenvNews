@@ -1,67 +1,54 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content"
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets"
-import Icon from "astro-icon";
-import { slide } from "astro:transitions";
+import { getCollection, type CollectionEntry } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { Image } from 'astro:assets'
+import Icon from 'astro-icon'
+import { slide } from 'astro:transitions'
 
 export const getStaticPaths = async () => {
-  const articles = await getCollection("articles");
-  const paths = articles.map(article => {
-    return {
-      params: {
-        slug: article.slug
-      },
-      props: {
-        article
-      }
-    }
-  })
-  return paths;
+	const articles = await getCollection('articles')
+	const paths = articles.map((article) => {
+		return {
+			params: {
+				slug: article.slug
+			},
+			props: {
+				article
+			}
+		}
+	})
+	return paths
 }
 
 type Props = {
-  article: CollectionEntry<"articles">
+	article: CollectionEntry<'articles'>
 }
 
-const {article} = Astro.props;
-const {Content} = await article.render();
-
-const slideAnim = {
-    old: {
-        name: 'slide',
-        duration: '5s',
-        easing: 'linear'
-    },
-    new: {
-        name: 'slide',
-        duration: '5s',
-        easing: 'linear'
-    }
-};
-
-const mySlide = {
-    forwards: slideAnim,
-    backwards: slideAnim,
-};
+const { article } = Astro.props
+const { Content } = await article.render()
 ---
 
 <BaseLayout pageTitle={article.data.title}>
-  <div class="flex justify-center">
-    <div class="max-w-4xl">
-      <a href={`/articles/`} class="flex items-center mt-6 hover:text-red-500"><Icon  name="fa:long-arrow-left" class="w-5 h-5  mr-2"/>Liste des articles</a>
-      <h1 >{article.data.title}</h1>
-      <Image
-        src={article.data.image}
-        alt={article.data.title}
-        width={1024}
-        height={1024 / 1.5}
-        class="rounded-2xl shadow-xl mb-6 aspect-thumbnail object-cover"
-      
-      />
-      <div class="prose prose-stone dark:prose-invert prose-2xl overflow-visible relative mb-20">
-        <Content />
-      </div>
-    </div>
-  </div>
+	<div class="flex justify-center">
+		<div class="max-w-4xl">
+			<a
+				href={`/articles/`}
+				class="mt-6 flex items-center transition duration-150 ease-in-out hover:-translate-x-2 hover:cursor-pointer hover:text-red-500"
+			>
+				<Icon name="fa:long-arrow-left" class="mr-2 h-5 w-5" />Liste des articles
+			</a>
+			<h1>{article.data.title}</h1>
+			<!-- <div>{article.data.image.width}</div> -->
+			<Image
+				src={article.data.image}
+				alt={article.data.title}
+				width={1024}
+				height={1024 / 1.5}
+				class="aspect-thumbnail mb-6 rounded-2xl object-cover shadow-xl"
+			/>
+			<div class="prose prose-2xl prose-stone relative mb-20 overflow-visible dark:prose-invert">
+				<Content />
+			</div>
+		</div>
+	</div>
 </BaseLayout>

@@ -1,10 +1,10 @@
 ---
 author: Techybear404
-categories: ["studio tips"]
+categories: ['studio tips']
 date: 08/10/2021
 featured: false
 image: ./images/analyst.png
-title: L'Analyste système.
+title: L'Analyste système
 ---
 
 Un analyste système, également connu sous le nom d'analyste en systèmes d'information ou analyste informatique, est un professionnel qui est chargé d'étudier, de concevoir, de mettre en œuvre et de gérer des systèmes d'information au sein d'une organisation. Le rôle principal de l'analyste système est de s'assurer que les systèmes informatiques de l'entreprise fonctionnent de manière efficace et répondent aux besoins de l'organisation.

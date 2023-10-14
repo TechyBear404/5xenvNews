@@ -1,0 +1,55 @@
+---
+import { useState } from 'react'
+import { motion } from 'framer-motion'
+import { Image } from 'astro:assets'
+import { Icon } from 'astro-icon'
+import logo from '../images/logo_no_bg.png'
+---
+
+<nav
+	class="fixed left-0 right-0 top-0 z-50 mx-auto flex h-[60px] justify-between p-4 pr-0 shadow-sm shadow-blue-700/50"
+	style="background: linear-gradient(90deg, #0D0E0E 44.8%, #171719 100%);"
+>
+	<a href="/" class="my-auto flex items-center justify-center hover:cursor-pointer">
+		<Image
+			src={logo}
+			alt="Logo 5XENV"
+			height={40}
+			class="absolute left-10 z-10 my-auto object-cover"
+		/>
+	</a>
+	<div
+		class="nav-links -z-1 absolute left-0 right-0 mx-0 my-auto flex justify-center gap-5 font-bold"
+	>
+		<a href="/" class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500"
+			>Accueil</a
+		>
+		<a
+			href="/articles/"
+			class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500">Articles</a
+		>
+		<a href="/about/" class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500"
+			>A propos</a
+		>
+	</div>
+	<div id="socials" class="z-50 my-auto flex justify-center gap-2 pr-10 text-base">
+		<a href="">
+			<Icon
+				name="fa:facebook-square"
+				class="hover:background-color h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+			/>
+		</a>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+			<Icon
+				name="fa:twitter-square"
+				class="h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+			/>
+		</a>
+		<a href="">
+			<Icon
+				name="fa:linkedin-square"
+				class="h-5 w-5 transition duration-150 ease-in-out hover:-translate-y-1 hover:cursor-pointer hover:text-red-500"
+			/>
+		</a>
+	</div>
+</nav>

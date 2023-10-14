@@ -1,8 +1,7 @@
 ---
 import { type CollectionEntry, getEntryBySlug } from 'astro:content'
 import { Image } from 'astro:assets'
-import ArticlesList from './ArticlesList.astro'
-import { fade } from 'astro:transitions'
+// import ArticlesList from './ArticlesList.astro'&
 
 // import CategoryList from "./CategoryList.astro"
 
@@ -12,24 +11,7 @@ type Props = {
 
 const { article } = Astro.props
 // const author = await getEntryBySlug("authors", article.data.author)
-
-const slideAnim = {
-	old: {
-		name: 'slide',
-		duration: '5s',
-		easing: 'linear'
-	},
-	new: {
-		name: 'slide',
-		duration: '5s',
-		easing: 'linear'
-	}
-}
-
-const mySlide = {
-	forwards: slideAnim,
-	backwards: slideAnim
-}
+// const image = await getEntryBySlug("articles", article.data.image)
 ---
 
 <article class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">

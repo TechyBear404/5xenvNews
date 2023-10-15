@@ -3,7 +3,7 @@ author: pam-beesely
 categories: ["insights"]
 date: 08/10/2021
 featured: false
-image: ./images/speaker.jpg
+image: ./images/sso2.png
 title: The importance of audio quality
 sub-title: L'Artisan de l'Efficacité Informatique
 ---

@@ -3,8 +3,8 @@ author: pam-beesely
 categories: ["career advice"]
 date: 08/10/2021
 featured: false
-image: ./images/oauth.svg
-title: Creating a successful music brand
+image: ./images/sso1.png
+title: OAuth
 sub-title: L'Artisan de l'Efficacité Informatique
 ---
 

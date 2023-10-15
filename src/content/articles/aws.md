@@ -4,7 +4,7 @@ categories: ["career advice"]
 date: 08/10/2021
 featured: false
 image: ./images/aws.png
-title: Gear is insanely expensive
+title: Amazon Web Services
 sub-title: L'Artisan de l'Efficacité Informatique
 ---
 

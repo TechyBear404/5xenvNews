@@ -1,9 +1,9 @@
 ---
 author: Winga
-categories: ["career advice"]
+categories: ['career advice']
 date: 15/10/2023
 featured: false
-image: ./images/sso1.png
+image: ./images/logo-sso.jpg
 title: Comprendre OAuth
 sub-title: Une Autorisation Sans Mot de Passe
 ---
@@ -32,9 +32,8 @@ OAuth est utile lorsque vous voulez permettre à une application d'accéder à v
 
 En résumé, OAuth rend vos informations plus sûres en permettant aux applications de faire des choses spécifiques pour vous, sans avoir besoin de votre mot de passe. C'est comme si vous donniez à quelqu'un une clé pour faire une tâche, mais cette clé s'auto-renouvelle automatiquement. Un exemple populaire est l'OAuth 2.0, très utilisé sur Internet pour ces autorisations.
 
+_Copyright © [2023], [Nom de votre Journal] - Tous droits réservés._
 
-*Copyright © [2023], [Nom de votre Journal] - Tous droits réservés.*
+_Ce document ne peut être reproduit ou distribué sans autorisation._
 
-*Ce document ne peut être reproduit ou distribué sans autorisation.*
-
-*Sources : Chat GPT, Wikipédia, https://auth0.com/fr/intro-to-iam/what-is-oauth-2, https://www.proofpoint.com/fr/threat-reference/oauth *
+_Sources : Chat GPT, Wikipédia, https://auth0.com/fr/intro-to-iam/what-is-oauth-2, https://www.proofpoint.com/fr/threat-reference/oauth _

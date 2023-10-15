@@ -23,19 +23,19 @@ const { article } = Astro.props
 				alt={article.data.title}
 				width={300}
 				height={300}
-				class="object-fit rounded-2xl shadow-xl"
+				class="rounded-2xl object-cover shadow-xl"
 			/>
 			<div class="p-4">
-				<div class="mb-3 inline-block text-3xl font-semibold">
+				<div class="mb-3 inline-block text-3xl font-semibold text-zinc-200">
 					{article.data.title}
 				</div>
 
-				<p class="mb-4 line-clamp-3 text-xl text-zinc-500">
+				<p class="mb-4 line-clamp-3 text-xl text-zinc-400">
 					{article.body}
 				</p>
 
 				<div class="flex items-center justify-between">
-					<div class="text-zinc-700">
+					<div class="text-zinc-500">
 						{article.data.date}
 					</div>
 				</div>

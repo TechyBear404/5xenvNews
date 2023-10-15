@@ -5,8 +5,10 @@ date: 14/10/2023
 featured: false
 image: ./images/azure.jpg
 title: Microsoft Azure
-sub-title: Qu'est-ce qu'Azure ?
+sub-title: Le Monde de l'Informatique en Nuage Expliqué
 ---
+
+**Qu'est-ce qu'Azure ?**
 
 Azure est comme un immense ordinateur invisible géré par Microsoft. Cet ordinateur géant peut faire beaucoup de choses pour vous, comme stocker des informations, aider à réfléchir à des problèmes, garder des secrets en sécurité, et bien plus encore.
 
@@ -38,4 +40,4 @@ Azure est utilisé par beaucoup de compagnies, grandes et petites. Ils l'utilise
 
 *Ce document ne peut être reproduit ou distribué sans autorisation.*
 
-*Sources : Chat GPT*
+*Sources : Chat GPT, Wikipédia*

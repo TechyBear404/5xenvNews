@@ -1,7 +1,7 @@
 ---
 author: Techybear404
 categories: ['studio tips']
-date: 08/10/2021
+date: 10/10/2023
 image: ./images/analyst.png
 title: L'Analyste système
 sub-title: L'Artisan de l'Efficacité Informatique

@@ -1,31 +1,39 @@
 ---
-author: pam-beesely
+author: Winga
 categories: ["career advice"]
-date: 08/10/2021
+date: 15/10/2023
 featured: false
 image: ./images/sso1.png
-title: OAuth
-sub-title: L'Artisan de l'Efficacité Informatique
+title: Comprendre OAuth
+sub-title: Une Autorisation Sans Mot de Passe
 ---
 
-Collaboration is a key component of many creative endeavors, and music production is no exception. In fact, collaboration can be essential to the success of a music project, as it allows for the pooling of diverse talents and perspectives to create something truly unique and compelling.
+**Qu'est-ce qu'OAuth ?**
 
-## Introduction
+OAuth est un peu comme une autorisation spéciale que vous donnez à une application pour qu'elle puisse accéder à certaines de vos informations sur Internet. C'est comme si vous permettiez à un ami d'accéder à votre boîte aux lettres, mais sans lui donner votre clé.
 
-There are many ways that collaboration can take place in music production. For example, musicians may collaborate on the creation of a song, with each musician contributing their own unique parts to the overall composition. Producers and engineers may collaborate to ensure that the final mix and master are of the highest quality possible. And songwriters and producers may collaborate to develop the song's overall structure, lyrics, and arrangement.
+**Pourquoi utilisons-nous OAuth ?**
 
-## Benefits
+Le but principal d'OAuth est de vous permettre de partager uniquement les informations que vous choisissez avec une application, sans avoir à lui donner votre nom d'utilisateur et votre mot de passe. C'est très utile quand vous voulez autoriser des applications à accéder à vos comptes sur les réseaux sociaux, votre email, votre stockage en ligne, ou même vos comptes bancaires, sans partager vos informations de connexion.
 
-One of the key benefits of collaboration in music production is that it allows for a more diverse and innovative approach to music-making. When individuals from different backgrounds and with different skill sets come together, they can bring a range of perspectives and ideas to the table. This can result in a more dynamic and interesting final product, with elements that may not have been present if the project had been created by just one person.
+**Comment fonctionne OAuth en général ?**
 
-Another benefit of collaboration is that it can help to mitigate the risks and challenges that can arise during the music production process. For example, if a musician is struggling to come up with a particular part or melody, another musician may be able to provide a fresh perspective or suggest a new approach. Similarly, if a producer is having difficulty getting a particular sound or effect just right, another engineer may be able to offer some advice or expertise.
+1. Vous décidez d'autoriser une application à accéder à vos informations sur un site web ou un service en ligne.
 
-## Challenges
+2. Cette application vous envoie sur le site web où vos informations sont stockées. Vous vous connectez si ce n'est pas déjà fait.
 
-Of course, collaboration in music production is not without its challenges. Communication can be a key issue, particularly when working with individuals from different backgrounds or with different areas of expertise. It's important for collaborators to be clear and transparent about their goals, preferences, and expectations, and to be willing to compromise and make adjustments as needed.
+3. Une fois connecté, le site web vous demande si vous êtes d'accord pour que l'application ait accès à certaines de vos informations. Il vous dit quelles informations sont demandées.
 
-In addition, it's important to ensure that all collaborators are on the same page when it comes to creative direction and vision. If individuals have different ideas about where the project should go, it can be difficult to achieve a cohesive and unified final product.
+4. Si vous acceptez, le site web génère ce qu'on appelle un "jeton d'accès" et un "jeton de rafraîchissement". Le jeton d'accès permet à l'application d'accéder à vos informations. Le jeton de rafraîchissement permet d'obtenir un nouveau jeton d'accès lorsque l'ancien expire.
 
-## Conclusion
+5. L'application utilise le jeton d'accès pour accéder à vos informations sur le site web.
 
-Despite these challenges, however, collaboration remains an essential component of music production. By working together, individuals can create music that is truly greater than the sum of its parts, and that has the potential to resonate with audiences around the world. Whether collaborating with other musicians, producers, engineers, or songwriters, the power of collaboration in music production cannot be underestimated.
+6. Les jetons d'accès ont une durée de vie limitée, donc ils expirent après un certain temps. L'application peut utiliser le jeton de rafraîchissement pour obtenir un nouveau jeton d'accès sans vous demander de vous connecter à nouveau.
+
+En utilisant OAuth, vous gardez vos informations de connexion en sécurité et vous contrôlez quelles informations vous partagez avec les applications. OAuth est un peu comme une serrure intelligente qui vous permet de partager des informations en ligne en toute sécurité. Une version populaire de ce protocole est l'OAuth 2.0, qui est utilisée partout sur le Web.
+
+*Copyright © [2023], [Nom de votre Journal] - Tous droits réservés.*
+
+*Ce document ne peut être reproduit ou distribué sans autorisation.*
+
+*Sources : Chat GPT, Wikipédia, https://auth0.com/fr/intro-to-iam/what-is-oauth-2, https://www.proofpoint.com/fr/threat-reference/oauth *

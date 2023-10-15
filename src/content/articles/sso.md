@@ -31,3 +31,5 @@ En résumé, le Single Sign-On (SSO) est un mécanisme qui permet aux utilisateu
 *Copyright © [2023], [Nom de votre Journal] - Tous droits réservés.*
 
 *Ce document ne peut être reproduit ou distribué sans autorisation.*
+
+*Sources : Chat GPT*

@@ -28,16 +28,16 @@ const { article } = Astro.props
           <ArticlesList categories={article.data.categories} />
       </div> -->
 		<div class="p-4">
-			<div class="mb-4 inline-block text-3xl font-semibold">
+			<div class="mb-4 inline-block text-3xl font-semibold text-zinc-200">
 				{article.data.title}
 			</div>
 
-			<p class="mb-4 line-clamp-2 text-xl text-zinc-500">
+			<p class="mb-4 line-clamp-2 text-xl text-zinc-400">
 				{article.body}
 			</p>
 
 			<div class="flex items-center justify-between">
-				<div class="text-zinc-700">
+				<div class="text-zinc-500">
 					{article.data.date}
 				</div>
 			</div>

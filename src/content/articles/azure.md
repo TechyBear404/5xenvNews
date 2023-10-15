@@ -3,7 +3,7 @@ author: jim-halpert
 categories: ["career advice"]
 date: 08/10/2021
 featured: false
-image: ./images/guitarist.jpg
+image: ./images/azure.jpg
 title: Guitar solos are still awesome
 sub-title: L'Artisan de l'Efficacité Informatique
 ---

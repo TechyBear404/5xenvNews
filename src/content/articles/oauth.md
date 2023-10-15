@@ -3,7 +3,7 @@ author: pam-beesely
 categories: ["career advice"]
 date: 08/10/2021
 featured: false
-image: ./images/record.jpg
+image: ./images/oauth.svg
 title: Creating a successful music brand
 sub-title: L'Artisan de l'Efficacité Informatique
 ---

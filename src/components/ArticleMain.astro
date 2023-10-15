@@ -17,18 +17,18 @@ const { article } = Astro.props
 		style="object-fit: cover; object-position: right bottom;"
 	/>
 	<div
-		class="flex h-full w-3/4 items-center"
-		style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0.11%, rgba(30, 30, 30, 0.00) 100%);"
+		class="flex h-full w-full items-center"
+		style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.7) 100%);"
 	>
-		<div class="ml-32 flex w-3/4 flex-col gap-5">
+		<div class="relative ml-32 flex w-1/2 flex-col items-center gap-5 backdrop-blur-sm">
 			<h1 class="text-7xl font-bold">Analyste système</h1>
 			<h2 class="text-xl font-light">
 				Des Problèmes aux Solutions : Un Voyage dans le Monde de l'Informatique.
 			</h2>
-			<div class="my-4 flex-initial">
-				<a href=`/article/${article.slug}`>
+			<div class="my-4 w-full">
+				<a href=`/article/${article.slug}` class="flex w-full justify-center">
 					<button
-						class="rounded-full border-2 border-red-500 bg-red-600 px-4 py-2 font-bold text-red-50 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:border-2 hover:border-white hover:bg-red-700"
+						class="w-1/3 rounded-full border-2 border-red-500 bg-red-600 px-4 py-2 font-bold text-red-50 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:border-2 hover:border-white hover:bg-red-700"
 					>
 						Lire l'article
 					</button>

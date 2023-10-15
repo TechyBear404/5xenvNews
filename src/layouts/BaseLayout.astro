@@ -4,11 +4,16 @@ import Footer from '../components/Footer.astro'
 import { ViewTransitions } from 'astro:transitions'
 import '../styles/global.css'
 
+import { Debug } from 'astro:components'
+
 interface Props {
 	pageTitle: string
 }
 
 const { pageTitle } = Astro.props
+// const { url } = Astro.props
+
+// console.log(url)
 ---
 
 <html lang="fr">
@@ -31,8 +36,8 @@ const { pageTitle } = Astro.props
 				</page>
 			</div>
 		</main>
-		<!-- <script>
-            import "../scripts/menu.js";
-        </script> -->
+		<script>
+			// console.log({url})
+		</script>
 	</body>
 </html>

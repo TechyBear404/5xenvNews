@@ -3,34 +3,44 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Image } from 'astro:assets'
 import { Icon } from 'astro-icon'
-import logo from '../images/logo_no_bg.png'
+import logo from '../images/logo2.png'
+
+// const pathname = new URL(Astro.request.url).pathname
+const currentPath = Astro.url.pathname
+// console.log(currentPath)
 ---
 
 <nav
 	class="fixed left-0 right-0 top-0 z-50 mx-auto flex h-[60px] justify-between p-4 pr-0 shadow-sm shadow-blue-700/50"
 	style="background: linear-gradient(90deg, #0D0E0E 44.8%, #171719 100%);"
 >
-	<a href="/" class="my-auto flex items-center justify-center hover:cursor-pointer">
-		<Image
-			src={logo}
-			alt="Logo 5XENV"
-			height={40}
-			class="absolute left-10 z-10 my-auto object-cover"
-		/>
+	<a href="/" class="relative my-auto flex items-center justify-center hover:cursor-pointer">
+		<div class="absolute left-10 z-10 flex items-center">
+			<Image src={logo} alt="Logo 5XENV" height="40" class="object-cover" />
+			<div class="pl-3 text-3xl">5XENV</div>
+		</div>
 	</a>
 	<div
-		class="nav-links -z-1 absolute left-0 right-0 mx-0 my-auto flex justify-center gap-5 font-bold"
+		class="-z-1 absolute left-0 right-0 mx-0 my-auto flex justify-center gap-10 font-bold uppercase"
 	>
-		<a href="/" class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500"
-			>Accueil</a
+		<a
+			href="/"
+			class=`${currentPath === '/' ? 'text-red-500/90' : ''} transition duration-150 ease-in-out hover:scale-110 hover:text-red-500 `
 		>
+			Accueil
+		</a>
 		<a
 			href="/articles/"
-			class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500">Articles</a
+			class=`${currentPath === '/articles/' ? 'text-red-500/90' : ''} transition duration-150 ease-in-out hover:scale-110 hover:text-red-500 `
 		>
-		<a href="/about/" class="transition duration-150 ease-in-out hover:scale-110 hover:text-red-500"
-			>A propos</a
+			Articles
+		</a>
+		<a
+			href="/about/"
+			class=`${currentPath === '/about/' ? 'text-red-500/90' : ''} transition duration-150 ease-in-out hover:scale-110 hover:text-red-500 `
 		>
+			A propos
+		</a>
 	</div>
 	<div id="socials" class="z-50 my-auto flex justify-center gap-2 pr-10 text-base">
 		<a href="">
@@ -53,3 +63,14 @@ import logo from '../images/logo_no_bg.png'
 		</a>
 	</div>
 </nav>
+<script>
+	// const nav = document.querySelector('nav')
+	// const navLinks = nav.querySelectorAll('a')
+	// const currentUrl = window.location.href
+	// console.log(currentUrl)
+	// navLinks.forEach((link) => {
+	// 	if (link.href === currentUrl) {
+	// 		link.classList.add('text-blue-500')
+	// 	}
+	// })
+</script>

@@ -4,20 +4,27 @@ import ArticleMdLayout from '../layouts/ArticleMdLayout.astro'
 import ArticleSmLayout from '../layouts/ArticleSmLayout.astro'
 import ArticleMain from '../components/ArticleMain.astro'
 import { getCollection } from 'astro:content'
+import { DateTime } from 'luxon'
 
 const articles = await getCollection('articles')
+const sortedArticles = articles.sort(
+	(a, b) =>
+		DateTime.fromFormat(b.data.date, 'dd/mm/yyyy') - DateTime.fromFormat(a.data.date, 'dd/mm/yyyy')
+)
+const mainArticle = sortedArticles.filter((article) => article.data.title === "L'Analyste Système")
+const articlesList = sortedArticles.filter((article) => article.data.title !== "L'Analyste Système")
 ---
 
 <BaseLayout pageTitle="Accueil">
 	<main class="">
-		<ArticleMain article={articles[0]} />
+		<ArticleMain article={mainArticle[0]} />
 		<div class="mx-auto flex max-w-6xl py-10">
 			<div class="grid grid-cols-12 gap-10">
 				<div class="col-span-8 grid shrink grid-cols-2 gap-5">
-					{articles.slice(1, 5).map((article) => <ArticleMdLayout article={article} />)}
+					{articlesList.slice(1, 5).map((article) => <ArticleMdLayout article={article} />)}
 				</div>
 				<div class="col-span-3 flex flex-col gap-7">
-					{articles.slice(6).map((article) => <ArticleSmLayout article={article} />)}
+					{articlesList.slice(6).map((article) => <ArticleSmLayout article={article} />)}
 				</div>
 			</div>
 		</div>

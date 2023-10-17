@@ -1,19 +1,19 @@
 ---
 author: Techybear404
 categories: ['studio tips']
-date: 10/10/2023
+date: 18/10/2023
 image: ./images/analyst.png
-title: L'Analyste système
-sub-title: L'Artisan de l'Efficacité Informatique
+title: L'Analyste Système
+sub_title: L'Artisan de l'Efficacité Informatique
 ---
 
 Les systèmes informatiques sont devenus la colonne vertébrale de nombreuses organisations, assurant le bon fonctionnement de leurs opérations au jour le jour. Au cœur de cette révolution technologique se trouve un acteur essentiel, l'analyste système, dont la mission est de garantir que ces systèmes répondent aux besoins de l'entreprise.
 
-## **Une Vue d'Ensemble**
+### **Une Vue d'Ensemble**
 
 Un analyste système, également connu sous le nom d'analyste en systèmes d'information ou analyste informatique, est un professionnel clé qui prend en charge l'étude, la conception, la mise en œuvre et la gestion des systèmes d'information au sein d'une organisation. Leur rôle principal est d'assurer que les systèmes informatiques de l'entreprise fonctionnent efficacement et répondent aux besoins spécifiques.
 
-## **Des Responsabilités Cruciales**
+### **Des Responsabilités Cruciales**
 
 Les responsabilités d'un analyste système sont variées et flexibles, s'adaptant aux besoins de chaque entreprise et projet. Voici un aperçu de leurs tâches clés :
 
@@ -29,10 +29,12 @@ Les responsabilités d'un analyste système sont variées et flexibles, s'adapta
 
 6. **Formation des Utilisateurs** : Les analystes systèmes peuvent également être responsables de former les utilisateurs finaux à l'utilisation efficace des systèmes et des logiciels.
 
-## **Au Cœur de la Révolution Numérique**
-
 En résumé, les analystes systèmes jouent un rôle vital dans la gestion des systèmes d'information au sein d'une organisation. Dans un monde en constante évolution, ils sont les gardiens de l'efficacité opérationnelle. En collaborant étroitement avec les utilisateurs et en concevant des solutions informatiques adaptées, ils s'assurent que les technologies de l'information sont au service des besoins de l'entreprise.
 
-*Copyright © [Année], [Nom de votre Journal] - Tous droits réservés.*
+&nbsp;
 
-*Ce document ne peut être reproduit ou distribué sans autorisation.*
+_Copyright © 2023 - Tous droits réservés._
+
+_Ce document ne peut être reproduit ou distribué sans autorisation._
+
+_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Analyste_(informatique)).\_

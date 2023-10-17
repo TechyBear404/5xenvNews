@@ -1,7 +1,7 @@
 html {
 	background: linear-gradient(270deg, #0d0e0e 0.08%, #121314 38.55%, #171719 100%);
 	font-family: sans-serif;
-	color: #dfd1d1;
+	/* color: #dfd1d1; */
 }
 
 body {
@@ -57,14 +57,14 @@ h2 {
 /* } */
 
 /* .nav-links a { */
-	/* display: block; */
-	/* flex: initial; */
-	/* text-align: center; */
-	/* padding: 10px 0; */
-	/* text-decoration: none; */
-	/* font-size: 1rem; */
-	/* text-transform: uppercase; */
-	/* color: inherit; */
+/* display: block; */
+/* flex: initial; */
+/* text-align: center; */
+/* padding: 10px 0; */
+/* text-decoration: none; */
+/* font-size: 1rem; */
+/* text-transform: uppercase; */
+/* color: inherit; */
 /* } */
 
 /* .nav-links a:visited {

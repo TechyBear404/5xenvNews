@@ -1,20 +1,18 @@
 ---
 author: Winga
-categories: ["studio tips"]
+categories: ['studio tips']
 date: 15/10/2023
 featured: false
-image: ./images/ssospace.png
-title: Single sign-on
-sub-title: L'Authentification Unique
+image: ./images/logo-sso.jpg
+title: Single Sign-On
+sub_title: L'Authentification Unique
 ---
-
-# Découvrir le Single Sign-On (SSO) en Termes Simples
 
 Le Single Sign-On (SSO), ou "Authentification Unique" en français, est un peu comme une clé magique pour l'ordinateur. Au lieu d'avoir plein de clés différentes pour chaque application ou service, le SSO vous permet d'ouvrir tout avec une seule clé.
 
 L'objectif principal du SSO est de simplifier la vie de l'utilisateur. Il évite d'avoir à se souvenir de plein de noms d'utilisateur et de mots de passe, ce qui peut être embêtant et même dangereux (comme réutiliser le même mot de passe partout).
 
-Voici comment ça marche généralement :
+### **Comment ça marche ?**
 
 1. Vous ouvrez votre ordinateur ou un site web avec votre nom d'utilisateur et mot de passe.
 
@@ -30,9 +28,10 @@ Le SSO est super utile au travail. Il aide à ouvrir toutes les applications don
 
 En résumé, le Single Sign-On (SSO) simplifie la vie en permettant de tout ouvrir avec une seule clé, ce qui rend l'ordinateur plus facile à utiliser et plus sûr.
 
+&nbsp;
 
-*Copyright © [2023], [Nom de votre Journal] - Tous droits réservés.*
+_Copyright © 2023 - Tous droits réservés._
 
-*Ce document ne peut être reproduit ou distribué sans autorisation.*
+_Ce document ne peut être reproduit ou distribué sans autorisation._
 
-*Sources : Chat GPT, Wikipédia, https://www.oracle.com/fr/security/qu-est-ce-qu-un-sso/ *
+_Sources : Chat GPT, Wikipédia, [Oracle](https://www.oracle.com/fr/security/qu-est-ce-qu-un-sso/)._

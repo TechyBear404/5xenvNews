@@ -17,22 +17,24 @@ const { article } = Astro.props
 	class="z-10 rounded-xl transition duration-300 ease-in-out hover:-translate-y-5 hover:scale-105 hover:bg-zinc-800 hover:shadow-lg hover:shadow-zinc-200/10"
 >
 	<a href={`/article/${article.slug}`} class="">
-		<Image
-			src={article.data.image}
-			alt={article.data.title}
-			width={600}
-			height={600 / 1.5}
-			class="rounded-t-lg"
-		/>
+		<div class="h-54 w-81 object-fit">
+			<Image
+				src={article.data.image}
+				alt={article.data.title}
+				width={600}
+				height={600 / 1.5}
+				class="aspect-thumbnail h-full w-full rounded-t-lg"
+			/>
+		</div>
 		<!-- <div class="mb-4">
           <ArticlesList categories={article.data.categories} />
       </div> -->
 		<div class="p-4">
-			<div class="mb-4 inline-block text-3xl font-semibold text-zinc-200">
+			<div class="mb-4 inline-block text-3xl font-semibold text-zinc-100">
 				{article.data.title}
 			</div>
 
-			<p class="mb-4 line-clamp-2 text-xl text-zinc-400">
+			<p class="mb-4 line-clamp-2 text-xl text-zinc-300">
 				{article.body}
 			</p>
 

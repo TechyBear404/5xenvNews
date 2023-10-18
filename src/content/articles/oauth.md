@@ -32,7 +32,7 @@ En résumé, OAuth rend vos informations plus sûres en permettant aux applicati
 
 &nbsp;
 
-_Copyright © [2023], [Nom de votre Journal] - Tous droits réservés._
+_Copyright © 2023 - Tous droits réservés._
 
 _Ce document ne peut être reproduit ou distribué sans autorisation._
 

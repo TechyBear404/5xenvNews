@@ -36,7 +36,7 @@ Les entreprises de toutes sortes utilisent Azure pour stocker des choses, faire 
 
 &nbsp;
 
-_Copyright © [2023], [Nom de votre Journal] - Tous droits réservés._
+_Copyright © 2023 - Tous droits réservés._
 
 _Ce document ne peut être reproduit ou distribué sans autorisation._
 

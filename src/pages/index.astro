@@ -25,7 +25,7 @@ const articlesList = sortedArticles.filter((article) => article.data.title !== "
 					{
 						articlesList
 							.slice(1, 5)
-							.map((article) => <ArticleMdLayout client:load article={article} />)
+							.map((article) => <ArticleMdLayout article={article} />)
 					}
 				</div>
 				<div class="col-span-3 flex flex-col gap-7">

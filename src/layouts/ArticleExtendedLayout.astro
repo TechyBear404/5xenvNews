@@ -22,15 +22,15 @@ const { article } = Astro.props
 				src={article.data.image}
 				alt={article.data.title}
 				width={300}
-				height={300}
-				class="rounded-2xl object-cover shadow-xl"
+				height={300 / 1.5}
+				class="aspect-thumbnail aspect-[3/2] rounded-2xl object-cover"
 			/>
 			<div class="p-4">
-				<div class="mb-3 inline-block text-3xl font-semibold text-zinc-200">
+				<div class="mb-3 inline-block text-3xl font-semibold text-zinc-100">
 					{article.data.title}
 				</div>
 
-				<p class="mb-4 line-clamp-3 text-xl text-zinc-400">
+				<p class="mb-4 line-clamp-3 text-xl text-zinc-300">
 					{article.body}
 				</p>
 

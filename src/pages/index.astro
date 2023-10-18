@@ -9,7 +9,8 @@ import { DateTime } from 'luxon'
 const articles = await getCollection('articles')
 const sortedArticles = articles.sort(
 	(a, b) =>
-		DateTime.fromFormat(b.data.date, 'dd/mm/yyyy') - DateTime.fromFormat(a.data.date, 'dd/mm/yyyy')
+		DateTime.fromFormat(b.data.date, 'dd/mm/yyyy').toMillis() -
+		DateTime.fromFormat(a.data.date, 'dd/mm/yyyy').toMillis()
 )
 const mainArticle = sortedArticles.filter((article) => article.data.title === "L'Analyste Système")
 const articlesList = sortedArticles.filter((article) => article.data.title !== "L'Analyste Système")
@@ -19,9 +20,13 @@ const articlesList = sortedArticles.filter((article) => article.data.title !== "
 	<main class="">
 		<ArticleMain article={mainArticle[0]} />
 		<div class="mx-auto flex max-w-6xl py-10">
-			<div class="grid grid-cols-12 gap-10">
-				<div class="col-span-8 grid shrink grid-cols-2 gap-5">
-					{articlesList.slice(1, 5).map((article) => <ArticleMdLayout article={article} />)}
+			<div class="grid grid-flow-col grid-cols-11 gap-10">
+				<div class="col-span-8 grid grid-cols-2 gap-5">
+					{
+						articlesList
+							.slice(1, 5)
+							.map((article) => <ArticleMdLayout client:load article={article} />)
+					}
 				</div>
 				<div class="col-span-3 flex flex-col gap-7">
 					{articlesList.slice(6).map((article) => <ArticleSmLayout article={article} />)}

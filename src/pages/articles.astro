@@ -12,7 +12,8 @@ const articles = await getCollection('articles')
 // articles.map(article => article.data.date = DateTime.fromISO(article.data.date))
 const sortedArticles = articles.sort(
 	(a, b) =>
-		DateTime.fromFormat(b.data.date, 'dd/mm/yyyy') - DateTime.fromFormat(a.data.date, 'dd/mm/yyyy')
+		DateTime.fromFormat(b.data.date, 'dd/mm/yyyy').toMillis() -
+		DateTime.fromFormat(a.data.date, 'dd/mm/yyyy').toMillis()
 )
 // console.log(sortedArticles)
 ---

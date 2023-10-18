@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getEntryBySlug } from 'astro:content'
 import { Image } from 'astro:assets'
+import { motion } from 'framer-motion'
 
 // import CategoryList from "./CategoryList.astro"
 
@@ -16,31 +17,31 @@ const { article } = Astro.props
 <article
 	class="z-10 rounded-xl transition duration-300 ease-in-out hover:-translate-y-5 hover:scale-105 hover:bg-zinc-800 hover:shadow-lg hover:shadow-zinc-200/10"
 >
-	<a href={`/article/${article.slug}`} class="">
-		<div class="h-54 w-81 object-fit">
+	<a href={`/article/${article.slug}`} class="group">
+		<div class="flex flex-col">
 			<Image
 				src={article.data.image}
 				alt={article.data.title}
 				width={600}
 				height={600 / 1.5}
-				class="aspect-thumbnail h-full w-full rounded-t-lg"
+				class="aspect-thumbnail aspect-[3/2] rounded-2xl object-cover group-hover:rounded-b-none group-hover:rounded-t-2xl"
 			/>
-		</div>
-		<!-- <div class="mb-4">
-          <ArticlesList categories={article.data.categories} />
-      </div> -->
-		<div class="p-4">
-			<div class="mb-4 inline-block text-3xl font-semibold text-zinc-100">
-				{article.data.title}
-			</div>
+			<!-- <div class="mb-4">
+						<ArticlesList categories={article.data.categories} />
+				</div> -->
+			<div class="p-4">
+				<div class="mb-4 inline-block text-3xl font-semibold text-zinc-100">
+					{article.data.title}
+				</div>
 
-			<p class="mb-4 line-clamp-2 text-xl text-zinc-300">
-				{article.body}
-			</p>
+				<p class="mb-4 line-clamp-2 text-xl text-zinc-300">
+					{article.body}
+				</p>
 
-			<div class="flex items-center justify-between">
-				<div class="text-zinc-500">
-					{article.data.date}
+				<div class="flex items-center justify-between">
+					<div class="text-zinc-500">
+						{article.data.date}
+					</div>
 				</div>
 			</div>
 		</div>

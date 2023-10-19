@@ -33,3 +33,11 @@ L'univers numérique dans lequel nous évoluons est de plus en plus sujet à des
 - **Attaques par force motrice :** Les pirates tentent de deviner les réponses aux questions de sécurité, telles que le nom du premier animal de compagnie ou le lieu de naissance, pour réinitialiser les mots de passe.
 
 Il est important de noter que la plupart de ces méthodes de piratage sont illégales et peuvent entraîner des poursuites pénales. Pour protéger vos systèmes et vos données, il est essentiel de mettre en place des mesures de sécurité appropriées, telles que des pares-feux, des antivirus, des mises à jour régulières des logiciels et une sensibilisation à la sécurité pour les utilisateurs. Également, si vous êtes un développeur, assurez-vous de suivre les meilleures pratiques de sécurité pour éviter les vulnérabilités dans vos applications.
+
+&nbsp;
+
+_Copyright © 2023 - Tous droits réservés._
+
+_Ce document ne peut être reproduit ou distribué sans autorisation._
+
+_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Hacking)._

@@ -1,9 +1,9 @@
 ---
-author: jim-halpert
+author: Techybear
 categories: ['insights']
 date: 08/10/2021
 featured: false
-image: ./images/concert.jpg
+image: ./images/toile.png
 title: "De la Toile Statique aux Réseaux Sociaux : L'Histoire de l'Internet"
 sub_title: Les Phases Clés qui Ont Façonné le Monde Numérique que Nous Connaissons Aujourd'hui
 ---

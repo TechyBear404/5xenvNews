@@ -34,12 +34,12 @@ const { article } = Astro.props
 					{article.body}
 				</p>
 
-				<div class="flex items-center justify-start gap-10 text-zinc-500">
-					<div class="">
-						{article.data.author}
-					</div>
+				<div class="flex items-start justify-start gap-10 text-zinc-500">
 					<div class="">
 						{article.data.date}
+					</div>
+					<div class="">
+						{article.data.author}
 					</div>
 				</div>
 			</div>

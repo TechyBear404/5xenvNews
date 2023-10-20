@@ -29,8 +29,9 @@ Aussi connu sous le nom "AWS", c'est un peu comme une grande boîte à outils d'
 En résumé, AWS permet aux entreprises et aux gens d'emprunter des outils informatiques puissants via Internet. Au lieu de posséder et gérer leur propre matériel informatique coûteux, les utilisateurs d'AWS peuvent louer ces outils à la demande, ce qui les rend flexibles, adaptables, et économiques.
 AWS est utilisé par toutes sortes de compagnies, des petites start-ups aux grandes entreprises. Ils l'utilisent pour stocker des informations, faire des calculs compliqués, et bien plus encore. AWS joue un rôle important dans le monde des affaires en permettant aux entreprises de s'adapter rapidement aux changements numériques avec une boîte à outils fiable et évolutive.
 
-_Copyright © 2023 - Tous droits réservés._
+&nbsp;
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
+Sources : Chat GPT, [Amazon](https://aws.amazon.com/fr/what-is-aws/), [Wikipédia](https://fr.wikipedia.org/wiki/Amazon_Web_Services).
 
-_Sources : Chat GPT, [Amazon](https://aws.amazon.com/fr/what-is-aws/), [Wikipédia](https://fr.wikipedia.org/wiki/Amazon_Web_Services)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

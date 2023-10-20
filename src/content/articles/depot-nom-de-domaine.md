@@ -1,9 +1,9 @@
 ---
-author: Techybear
+author: Techybear404
 categories: ['latest', 'insights']
 date: 08/10/2021
 featured: true
-image: ./images/producer.jpg
+image: ./images/nom_de_domain.png
 title: Naviguer dans le Monde des Noms de Domaine
 sub_title: L'Artisan de l'Efficacité InformatiqueDe la Recherche à la Réservation pour une Présence Web Sans Faille
 ---
@@ -32,8 +32,7 @@ Le processus de dépôt et de réservation des noms de domaine peut varier lég�
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Nom_de_domaine).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-\_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Nom_de_domaine).\_
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

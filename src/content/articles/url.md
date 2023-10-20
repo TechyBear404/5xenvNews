@@ -1,9 +1,9 @@
 ---
-author: dwight-schrute
+author: Techybear404
 categories: ['studio tips']
-date: 13/10/2023
+date: 12/10/2023
 featured: false
-image: ./images/studio.jpg
+image: ./images/url.png
 title: "Démystification des URL : La Clé de l'Internet"
 sub_title: 'Comprendre la Structure et les Rouages des Liens Web pour Naviguer en Toute Confiance'
 ---
@@ -44,8 +44,7 @@ En résumé, une URL est une notation standardisée qui permet d'identifier de m
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Uniform_Resource_Locator).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, Wikipédia._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

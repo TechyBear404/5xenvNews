@@ -1,16 +1,16 @@
 ---
-author: Techybear
+author: Techybear404
 categories: ['insights']
 date: 08/10/2021
 featured: false
-image: ./images/sso2.png
+image: ./images/normes_internet.jpg
 title: Les Normes qui Unissent le Monde du Web
 sub_title: Explorer Comment les Normes Favorisent la Coexistence des Technologies en Ligne
 ---
 
 Le World Wide Web est une toile complexe d'informations et de services, mais ce qui assure son bon fonctionnement sont les normes de standardisation. Plongeons dans l'univers de ces spécifications techniques qui régissent le Web, du langage de balisage HTML aux protocoles de sécurité SSL/TLS, en passant par les protocoles de communication HTTP et SMTP. Découvrez comment ces normes essentielles favorisent l'interopérabilité des applications en ligne et rendent possible la création de sites Web et d'applications uniformes sur une multitude de plateformes. Un monde numérique harmonieux, façonné par des organisations telles que le W3C et l'IETF.
 
-### Quelques-unes des normes de standardisation les plus importantes :
+### Quelques-unes des normes de standardisation les plus importantes
 
 **HTML (Hypertext Markup Language) :** HTML est le langage de balisage utilisé pour créer des pages Web. Les différentes versions d'HTML, telles qu'HTML5, sont des normes de base pour la création de contenu Web structuré.
 
@@ -42,8 +42,7 @@ Ces normes jouent un rôle essentiel dans l'interopérabilité des applications 
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Amazon_Web_Services).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Amazon_Web_Services)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

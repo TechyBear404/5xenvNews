@@ -23,7 +23,7 @@ const { article } = Astro.props
 				alt={article.data.title}
 				width={300}
 				height={300 / 1.5}
-				class="aspect-thumbnail aspect-[3/2] rounded-2xl object-cover"
+				class="aspect-thumbnail aspect-[3/2] rounded-2xl bg-zinc-800/60 object-cover"
 			/>
 			<div class="p-4">
 				<div class="mb-3 inline-block text-3xl font-semibold text-zinc-100">
@@ -34,8 +34,11 @@ const { article } = Astro.props
 					{article.body}
 				</p>
 
-				<div class="flex items-center justify-between">
-					<div class="text-zinc-500">
+				<div class="flex items-center justify-start gap-10 text-zinc-500">
+					<div class="">
+						{article.data.author}
+					</div>
+					<div class="">
 						{article.data.date}
 					</div>
 				</div>

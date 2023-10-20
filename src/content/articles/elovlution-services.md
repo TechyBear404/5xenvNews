@@ -1,10 +1,10 @@
 ---
-author: Techybear
+author: Techybear404
 categories: ['insights']
 date: 08/10/2021
 featured: false
-image: ./images/toile.png
-title: "De la Toile Statique aux Réseaux Sociaux : L'Histoire de l'Internet"
+image: ./images/evolution_services.png
+title: "L'Histoire de l'Internet de services"
 sub_title: Les Phases Clés qui Ont Façonné le Monde Numérique que Nous Connaissons Aujourd'hui
 ---
 
@@ -54,8 +54,7 @@ L'évolution des services et des supports d'informations sur le Web est étroite
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, [Amazon](https://aws.amazon.com/fr/what-is-aws/), [Wikipédia](https://fr.wikipedia.org/wiki/Amazon_Web_Services)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

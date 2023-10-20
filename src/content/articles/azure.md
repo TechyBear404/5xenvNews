@@ -36,8 +36,7 @@ Les entreprises de toutes sortes utilisent Azure pour stocker des choses, faire 
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Microsoft_Azure).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, Wikipédia._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

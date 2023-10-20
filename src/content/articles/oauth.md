@@ -1,7 +1,7 @@
 ---
 author: Winga
 categories: ['career advice']
-date: 15/10/2023
+date: 13/10/2023
 featured: false
 image: ./images/oauth.svg
 title: Comprendre OAuth
@@ -32,8 +32,7 @@ En résumé, OAuth rend vos informations plus sûres en permettant aux applicati
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/OAuth), [auth0](https://auth0.com/fr/intro-to-iam/what-is-oauth-2), [proofpoint](https://www.proofpoint.com/fr/threat-reference/oauth).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, Wikipédia, [auth0](https://auth0.com/fr/intro-to-iam/what-is-oauth-2), [proofpoint](https://www.proofpoint.com/fr/threat-reference/oauth)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

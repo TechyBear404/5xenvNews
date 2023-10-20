@@ -3,7 +3,7 @@ author: Winga
 categories: ['studio tips']
 date: 15/10/2023
 featured: false
-image: ./images/logo-sso.jpg
+image: ./images/sso.png
 title: Single Sign-On
 sub_title: L'Authentification Unique
 ---
@@ -30,8 +30,7 @@ En résumé, le Single Sign-On (SSO) simplifie la vie en permettant de tout ouvr
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Authentification_unique), [Oracle](https://www.oracle.com/fr/security/qu-est-ce-qu-un-sso/).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, Wikipédia, [Oracle](https://www.oracle.com/fr/security/qu-est-ce-qu-un-sso/)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

@@ -33,8 +33,7 @@ En résumé, les analystes systèmes jouent un rôle vital dans la gestion des s
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](<https://fr.wikipedia.org/wiki/Analyste_(informatique)>).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Analyste_(informatique)).\_
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.

@@ -22,14 +22,10 @@ const articlesList = sortedArticles.filter((article) => article.data.title !== "
 		<div class="mx-auto flex max-w-6xl py-10">
 			<div class="grid grid-flow-col grid-cols-11 gap-10">
 				<div class="col-span-8 grid grid-cols-2 gap-5">
-					{
-						articlesList
-							.slice(1, 5)
-							.map((article) => <ArticleMdLayout article={article} />)
-					}
+					{articlesList.slice(0, 4).map((article) => <ArticleMdLayout article={article} />)}
 				</div>
 				<div class="col-span-3 flex flex-col gap-7">
-					{articlesList.slice(6).map((article) => <ArticleSmLayout article={article} />)}
+					{articlesList.slice(4).map((article) => <ArticleSmLayout article={article} />)}
 				</div>
 			</div>
 		</div>

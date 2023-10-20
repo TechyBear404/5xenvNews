@@ -1,9 +1,9 @@
 ---
-author: Techybear
+author: Techybear404
 categories: ['studio tips']
 date: 08/10/2021
 featured: false
-image: ./images/drums.jpg
+image: ./images/cyberintrusion.png
 title: L'Art de la Cyberintrusion
 sub_title: Les Voies de Pénétration des Pirates
 ---
@@ -36,8 +36,7 @@ Il est important de noter que la plupart de ces méthodes de piratage sont illé
 
 &nbsp;
 
-_Copyright © 2023 - Tous droits réservés._
+Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Hacking).
 
-_Ce document ne peut être reproduit ou distribué sans autorisation._
-
-_Sources : Chat GPT, [Wikipédia](https://fr.wikipedia.org/wiki/Hacking)._
+Ce document ne peut être reproduit ou distribué sans autorisation.  
+Copyright © 2023 - Tous droits réservés.
